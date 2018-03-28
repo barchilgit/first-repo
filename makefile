@@ -2,9 +2,9 @@ all:readme.md
 
 readme.md:
 	
-	echo "# My Guess Game Project" > README.md
-	echo "Current Time and Date  is  : `date`" >> README.md
-	echo "The Number of lines in guessgames.sh is : `cat guessgames.sh | wc -l` Lines." >> README.md
+	echo "# My Guess Game Project  " > README.md
+	echo "Current Time and Date  is  : `date`  " >> README.md
+	echo "The Number of lines in guessgames.sh is : `cat guessgames.sh | wc -l` Lines.  " >> README.md
 	echo "  " >> README.md
 	echo "This contains the Guess Game script.Its works as following :" >> README.md
 	echo "  " >> README.md
