@@ -1,6 +1,6 @@
-# My Guess Game Project
-Current Time and Date  is  : Wed Mar 28 11:06:11 EDT 2018
-The Number of lines in guessgames.sh is : 49 Lines.
+# My Guess Game Project  
+Current Time and Date  is  : Wed Mar 28 11:11:01 EDT 2018  
+The Number of lines in guessgames.sh is : 49 Lines.  
   
 This contains the Guess Game script.Its works as following :
   
