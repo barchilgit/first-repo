@@ -1,17 +1,17 @@
+#!/bin/bash
+# guessgames.sh
+# Author: Said BARCHIL 
 
 function get_number_of_files {
  	# this function get the number of files
 	# from the command ls -l  pipped with 
 	# the command wc
-
  	local xnumber=1500
 	xnumber=$(ls -l | wc -l)
 	let xnumber=$xnumber-1
 	echo $xnumber
 }
 clear
-echo " "
-echo " "
 echo " *****************************************************************"
 echo " "
 echo " This is The Guessing Game  "
@@ -26,12 +26,10 @@ found=0
 
 while [[ $found -eq 0 ]]
 do
-	echo " "
 	echo " *****************************************************************"
 	echo " "
 	echo "Please give the Number of files in the Current Folder  : "
 	read responce 
-
 	if [[ $responce -eq $number_initial ]]
 	then
 		echo "Congratulations your have the right Number  "
@@ -44,10 +42,7 @@ do
 	fi
 done
 echo "the Game is Over  "
-
-
-
-
+echo "The number of days since the year's beginning is `date`."
 
 
 

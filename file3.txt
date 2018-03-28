@@ -1,5 +1,0 @@
-total 4
--rw-rw-r--. 1 said said   0 Mar 26 13:18 file1.txt
--rw-rw-r--. 1 said said   0 Mar 26 13:39 file3.txt
--rw-rw-r--. 1 said said   0 Mar 26 12:57 guessgames.sh
--rw-rw-r--. 1 said said 435 Mar 26 13:30 README.md
