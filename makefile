@@ -4,7 +4,6 @@ readme.md:
 	
 	echo "# My Guess Game Project" > README.md
 	echo "Current Time and Date  is  : `date`" >> README.md
-	xlines=$(cat guessgames.sh | wc )
 	echo "The Number of lines in guessgames.sh is : `cat guessgames.sh | wc -l` Lines." >> README.md
 	echo "  " >> README.md
 	echo "This contains the Guess Game script.Its works as following :" >> README.md
